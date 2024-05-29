@@ -8,5 +8,6 @@ public class Lam {
         //without return type
         B obj = /*(int a)*/ a-> System.out.println("Lamda Exp "+a);
         obj.m1(5);
-    }
+    } 
+   
 }
