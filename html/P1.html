@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudheerfitness</title>
+</head>
+
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("gym.jpg");
+    }
+    .left{
+        position: absolute;
+        top: 8px;
+        left: 18px;
+        display: inline-block;
+    
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        
+    }
+    .right{
+        position: absolute;
+        top: 20px;
+        right: 14px;
+        display: inline-block;
+        margin: 14px 20px;
+       
+    }
+    .nav{
+        display: inline-block;
+    }
+    .nav li{
+        
+        display: inline-block;
+    
+       
+    }
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .nav li a:hover, .nav li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        
+        width: 95px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 0px 0px;
+        background-color: black;
+        color: wheat;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+ }
+ .btn :hover{
+    background-color: rgb(188, 122, 156);
+ }
+ .container{
+   border:  2px solid white;
+   max-resolution: 2px 2px;
+    padding: 2px 2px;
+    width: 33%;
+    border-radius: 14px;
+ }
+ .form-grp input{
+text-align: center;
+display: block;
+width: 34px;
+padding: 12px;
+margin: 11px;
+width: 80%;
+border: 2px solid black;
+font-size: 25px;
+border-radius: 23px;
+ }
+ .container h2{
+    text-align: center;
+ }
+ .container button{
+    display: inline-block;
+    width: 89%;
+    margin: 20px auto;
+    margin-left: 11px;
+ }
+</style>
+<body>
+    <head>
+        <div class="left">
+            <img src="logo.jpg" alt="my logo">
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">e-mail us</button>
+        </div>
+
+    </head>
+    <div class="container">
+        <h2>Join the best gym in hyd</h2>
+        <form action="noaction.php">
+            <div class="form-grp">
+        
+                <input type="text" email="mail" placeholder="E-mail">
+                
+            </div>
+            <div class="form-grp">
+                <input type="password" password="pass" placeholder="password">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
